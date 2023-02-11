@@ -1,0 +1,484 @@
+Prem Kumar9:34 PM
+Hi all.. Hope you folks had great day.
+Shivshankar Sahu9:34 PM
+yes
+Bilal Mansuri9:34 PM
+yes
+Viren Suthar9:34 PM
+yes'
+Kiran Kumar9:35 PM
+New topics
+aravind g9:35 PM
+great insights on how CORS works
+Hardik Bansal9:35 PM
+It was great and very interactive
+Kiran Kumar9:35 PM
+Which we usually won't get to learn very easily
+Ashish Gupta9:36 PM
+it was knowledgeable, got to learn some complex topic
+Soham Shah9:36 PM
+it was great! concepts were well-explained; live coding is so cool
+Viren Suthar9:36 PM
+for me I have learned lot of concepts that I never heard, and I can learn in more detail via this topics
+Mohamed Nazeer9:38 PM
+Participated in Hackerone programs in clg times ? @Sunny
+Awesome :)
+Mohamed Nazeer9:39 PM
+Happens ! 😢
+aravind g9:40 PM
+Reported a potential bug to scrimba
+They atleast ack that
+Piyush Mahapatra9:40 PM
+Nice!
+Arpan Sahoo9:40 PM
+Great
+gurdial singh9:40 PM
+today is first session or second,yesterday i got mail regarding 2 feb first day?
+You9:41 PM
+I joined from another mail by mistake, should I re-join?
+@Sailesh Patra
+Thanks
+Sunny
+PRIYANSHU GUPTA9:42 PM
+You mentioned yesterday browser already has the response, does it mean POST req has already been executed or does it get completed after getting 200 response back from options request
+Pratiyush Kumar9:43 PM
+yes
+Piyush Mahapatra9:43 PM
+can someone share the repo here ?
+punit batra9:43 PM
+https://github.com/devkodeio/web-security-bootcamp
+Piyush Mahapatra9:43 PM
+thanks!
+rahul singhal9:44 PM
+Error
+Vibhooti Singh9:44 PM
+error
+Hardik Bansal9:44 PM
+error
+Prem Kumar9:44 PM
+CORS Error!!
+Rohit Kumar9:45 PM
+yes
+Varchasvi Pandey9:45 PM
+no
+Prem Kumar9:46 PM
+Blocked
+Pratiyush Kumar9:46 PM
+blocked
+Rohit Kumar9:46 PM
+block
+Vibhooti Singh9:46 PM
+error
+vicky kumar9:46 PM
+error
+Pratiyush Kumar9:50 PM
+yes
+aravind g9:50 PM
+yes
+Jaya Tulsiani9:50 PM
+domain is same thats why?
+Munish Thakur9:50 PM
+is it related to browser's fetch api and not applicable to request made by browers directly?
+Pratiyush Kumar9:51 PM
+browser is same
+i guess that's why
+Pratiyush Kumar9:52 PM
+yes
+aravind g9:52 PM
+yes
+Mani Raj9:52 PM
+Same origin policy applicable only for Fetch/XHR request alone?
+Jaynil Gaglani9:53 PM
+Is this due to the type of document?
+Naman Saxena9:53 PM
+Maybe because of type of request, not a fetch
+yeah
+Ankur Chaudhary9:53 PM
+xhr call only
+Rohan Salunke9:54 PM
+Cross origin requests are blocked for security reasons of both client and the server. A request could be any request to the server be it a resource, iframe or ajax http request
+arsalan khan9:54 PM
+Sec-Fetch-Mode it has anything to do with this header field
+aravind g9:59 PM
+browser is not getting the response header it is expecting
+Pratiyush Kumar10:00 PM
+yes
+no
+Jaynil Gaglani10:00 PM
+no response
+Prem Kumar10:01 PM
+Lot of confusion now
+Pratiyush Kumar10:01 PM
+yes
+aravind g10:01 PM
+yes  confusing!!
+Shubhamsatyam Verma10:01 PM
+xmlHttprequest something with this ?
+shaksham sinha10:01 PM
+yes lots of confustion
+Piyush Mahapatra10:01 PM
+Ignorance is bliss 🥲🥲🥲
+Prerna Mehra10:01 PM
+yes, really confused now.
+Jaynil Gaglani10:02 PM
+it's in french
+Piyush Mahapatra10:02 PM
+Can you switch dark mode in mdn
+Theme at top
+Thank you
+Prem Kumar10:02 PM
+YES
+Prem Kumar10:04 PM
+JSON
+Sameer Ayyagari10:04 PM
+json
+Prem Kumar10:04 PM
+FORMDATA
+Sameer Ayyagari10:04 PM
+json
+Kirtesh Bansal10:04 PM
+json
+Pratiyush Kumar10:05 PM
+for css what is the content type??
+Rohan Salunke10:06 PM
+Why are these content types allowed over json?
+aravind g10:07 PM
+yes
+Bhavik Chavda10:07 PM
+yes
+Ashish Gupta10:08 PM
+can u please repeat
+Jaynil Gaglani10:08 PM
+can we intercept & override content type?
+Pratiyush Kumar10:08 PM
+clear
+aravind g10:08 PM
+PUT / POST is there a significant difference?
+Khushal Sharma10:09 PM
+nope
+Arpan Sahoo10:09 PM
+no
+Harshith Venkatesh10:09 PM
+oh my god, NOooooo
+Ayush Katiyar10:09 PM
+no
+Pratiyush Kumar10:09 PM
+nope
+Hardik Bansal10:09 PM
+nope
+vicky kumar10:09 PM
+not expected
+Naman Saxena10:09 PM
+But why js is allowed? Is it not dangerous?
+Rohan Salunke10:09 PM
+//TODO: Explore why these content types are chosen over others
+Hamza Husein10:09 PM
+I did not expect CORS to stretch this long and deep, still the tip of the iceberg 🤯
+Pratiyush Kumar10:09 PM
+clear
+Bilal Mansuri10:09 PM
+for javascript, content-type is application/javascript, why is it allowed ?
+Ayush Katiyar10:09 PM
+clear
+janaki S10:10 PM
+\
+Varchasvi Pandey10:10 PM
+So if a request method is DELETE, 
+It will just simply block it, no checks nothing
+Vibhooti Singh10:11 PM
+what about cdns ?
+aravind g10:12 PM
+2
+Devkode10:17 PM
+GET Call > Paused (Wait for Preflight response) -> (If Preflight Success) -> Resume ->Response(Access-Control-Allow-Origin : *) -> 200 (Data / Ok)
+
+Preflight Call [OPTIONS] -> Response (Access-Control-Allow-Origin : *) -> 200 (OK)
+Pratiyush Kumar10:17 PM
+kind of authentication happining through preflight??
+aravind g10:19 PM
+no
+Deepak jain10:19 PM
+no
+Bhavik Chavda10:19 PM
+yes
+Devkode10:20 PM
+If Different origins
+
+
+/api/getComments
+
+GET Call > Paused (Wait for Preflight response) -> (If Preflight Success) -> Resume ->Response(Access-Control-Allow-Origin : *) -> 200 (Data / Ok)
+
+Preflight Call [OPTIONS] -> Response (Access-Control-Allow-Origin : *) -> 200 (OK)
+
+
+
+
+GET Call > Paused (Wait for Preflight response) -> (If Preflight Success) -> Resume -> CORS ERROR
+
+Preflight Call [OPTIONS] -> Response () -> 200 (OK)
+
+
+
+GET Call > Paused (Wait for Preflight response) -> (If Preflight Succe
+Hamza Husein10:20 PM
+didnt get why 200 even if response header doesnt have the origin
+Ayush Katiyar10:24 PM
+call
+Bhavik Chavda10:24 PM
+index.html
+Shivam Verma10:24 PM
+get
+Srijeet Ghosh10:24 PM
+options
+Aanchal Fatwani10:29 PM
+In browser, GET initiates first and then gets paused for Preflight.
+In burpsuite, why Preflight initiated first and completed?
+arsalan khan10:30 PM
+Forget about everything how the interceptor is doing all this
+Piyush Mahapatra10:30 PM
+nice!
+finally i can understand that error . thanks!
+Mohamed Nazeer10:33 PM
+But yeah,allowing all origins is bad practice @vicky. Assume you're using third party API to get some data from your API, which will be billed for certain requests. If you allow all origins, the number of hits will be high, and you'll be billed accordingly
+Dhruvit Galoriya10:34 PM
+yes
+Harshith Venkatesh10:35 PM
+Could someone please share Allow origin headers :)
+Devkode10:36 PM
+access-control-allow-methods: *
+Access-Control-Allow-Origin: http://localhost:1234
+Access-Control-Allow-Headers: *
+Harshith Venkatesh10:36 PM
+thank you
+Hamza Husein10:39 PM
+no
+Piyush Mahapatra10:39 PM
+yes
+aravind g10:39 PM
+yes
+Viren Suthar10:39 PM
+yes
+Rohit Kumar10:39 PM
+yes
+Khushal Sharma10:40 PM
+Yes
+Piyush Mahapatra10:40 PM
+in express when we use that app.use(cors()) middleware , we are sending explicitly that option response
+Satyam Lachhwani10:41 PM
+Just wondering why script (JS) is allowed to be shared from different origin?
+
+Does anyone know?
+Piyush Mahapatra10:41 PM
+yes
+Vinayak Goyal10:41 PM
+If the content type is text plain then we will see the response or not?
+Pratiyush Kumar10:42 PM
+basically browser matches request header and if the conditions are matched then No CORS error else it will give CORS error if any of the request header conditions fail
+yes
+Bilal Mansuri10:43 PM
+yes
+Pratik Kumar10:45 PM
+in this  case.. does original request is reaching out to the server ???
+Naman Saxena10:47 PM
+clear
+Sahil Kalyani10:47 PM
+Make status 200
+Munish Thakur10:47 PM
+and allow headers
+Varchasvi Pandey10:48 PM
+If a brand puts a 400 status code for Options call for all of their APIs, will it be helpful? Like will it aid the security
+aravind g10:48 PM
+yes!!
+Viren Suthar10:49 PM
+can we still get the response if we require a token in post API?
+Jaynil Gaglani10:49 PM
+status change is not present
+aravind g10:49 PM
+they are not able to change to 404 status
+Khushal Sharma10:50 PM
+yes Clear
+Bilal Mansuri10:50 PM
+yes clear
+Naman Saxena10:51 PM
+clear
+Bilal Mansuri10:51 PM
+yes
+Prerna Mehra10:51 PM
+crystal
+Vibhooti Singh10:51 PM
+yes clear
+Pratishtha Sharma10:51 PM
+yes
+Pratiyush Kumar10:51 PM
+crystal clear
+Rohit Kumar10:51 PM
+yes
+Akash Sharma10:51 PM
+Yes it was
+Pratiyush Kumar10:52 PM
+through options
+Prem Kumar10:52 PM
+You're amazing sunny
+Pratiyush Kumar10:52 PM
+if it is getting preflight then It is passing 400
+and blocking it
+Jaynil Gaglani10:53 PM
+no
+Pratiyush Kumar10:53 PM
+yes
+aravind g10:53 PM
+no
+Pratiyush Kumar10:53 PM
+200
+Jaynil Gaglani10:53 PM
+200
+Pratiyush Kumar10:56 PM
+clear
+Rohit Kumar10:56 PM
+yes
+Viren Suthar10:56 PM
+cleR
+Bilal Mansuri10:56 PM
+yes
+Sahil Kalyani10:56 PM
+LinkedIn devs are 1 step ahead of the devs who made that extension :P
+Hardik Bansal10:58 PM
+but not ahead of sunny
+Pratiyush Kumar10:59 PM
+yes
+Piyush Mahapatra10:59 PM
+Yes Please
+Kedar Hargude10:59 PM
+yes
+Jaynil Gaglani10:59 PM
+yes
+shivam singh10:59 PM
+yes
+aravind g10:59 PM
+yes!
+Sahil Kalyani10:59 PM
+yes
+Madhur Parashar10:59 PM
+yes
+Arpan Sahoo10:59 PM
+yes
+Bhavik Chavda10:59 PM
+yes
+Khushal Sharma10:59 PM
+Yes
+Rohit Kumar10:59 PM
+yes
+Surya10:59 PM
+yes
+Hussam Khatib10:59 PM
+yes'
+Viren Suthar10:59 PM
+YES
+Soham Shah10:59 PM
+Very cool
+Piyush Mahapatra11:00 PM
+Never understood CORS like tgis . Thanks!
+Pratiyush Kumar11:00 PM
+not audible
+yes
+Piyush Mahapatra11:00 PM
+Yes
+Munish Thakur11:00 PM
+yes now
+Hussam Khatib11:00 PM
+yes
+Pratiyush Kumar11:01 PM
+yes
+Shubhamsatyam Verma11:01 PM
+yep
+Bilal Mansuri11:01 PM
+YES
+Anand Baraik11:01 PM
+yes
+Dhruvit Galoriya11:01 PM
+yes
+aravind g11:01 PM
+definitely
+Naman Saxena11:01 PM
+Nice session!
+Bhavik Chavda11:01 PM
+yes
+Soham Shah11:01 PM
+Yes, truly
+Akash Joshi11:01 PM
+yes
+Ankit Karn11:01 PM
+yes
+Aditya Ranjan11:01 PM
+yes
+Preeti Roshan11:01 PM
+yes
+Akash Sharma11:01 PM
+Yes
+Rohit Kumar11:01 PM
+yes
+Vibhooti Singh11:01 PM
+Yes
+Kedar Hargude11:01 PM
+A LOT!!!
+Jay Mishra11:01 PM
+yes
+Soham Shah11:01 PM
+Has anyone by any chance made some short notes? Please do share in group 😁 Will be helpful for revising
+You11:02 PM
+Can someone repeat, why linkedin didnt blocked OPTIONS call in browser and blocked while doing it through burpsuite?
+Khushal Sharma11:02 PM
+Example of unique tracking : https://www.nothingprivate.ml/
+Mohamed Nazeer11:02 PM
+Leetcode submission. You can't submit frequently. Similarly it'll block if there's n number of hits from one IP
+Vinayak Goyal11:02 PM
+Linkedin did blocked it
+Mohamed Nazeer11:03 PM
+It'll block your account
+Shivam Verma11:03 PM
+yeah same
+aravind g11:03 PM
+yes!!
+Piyush Mahapatra11:04 PM
+please do so
+Shivam Verma11:04 PM
+where do we register for whole year
+Kedar Hargude11:04 PM
+Can you share some resources on feeding this curiosity even more? These concepts are superb!
+You11:04 PM
+Can someone repeat, why linkedin didnt blocked OPTIONS call in browser and blocked while doing it through burpsuite?
+Soham Shah11:04 PM
+Legit. Great stuff
+Mohamed Nazeer11:05 PM
+Can you please share some info on IndexedDB ? Couldn't able to find much resources
+Pratiyush Kumar11:06 PM
+clear
+Piyush Mahapatra11:06 PM
+Sure!
+vicky kumar11:06 PM
+sure
+Harshith Venkatesh11:06 PM
+We will join as well :)
+Soham Shah11:06 PM
+Devmanus 🙇‍♂️
+Arpan Sahoo11:06 PM
+sure
+Devkode11:07 PM
+Turn On Camera If possible
+vamsi annabathula11:08 PM
+attendance
+Hamza Husein11:08 PM
+pls share form for tmrws session :)
+Devkode11:09 PM
+sending invite now :)
+Bhavik Chavda11:10 PM
+127.0.0.1
+Sameer Ayyagari11:10 PM
+127.0.0.0
+change in hosts file  ?
+sandeep g11:11 PM
+0.0.0.0 also is for home right?
+Devkode11:11 PM
+http://127.0:1234/
+yus-rdyx-mcv

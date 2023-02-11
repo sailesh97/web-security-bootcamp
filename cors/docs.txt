@@ -1,0 +1,22 @@
+Hit the API --> if different domain --> PAUSE the call ---> Hit preflight ---> If allowed ---> Serve response, if not allowed ---> Throw CORS -->
+
+
+GET Call > Paused (Wait for Preflight response) -> (If Preflight Success) -> Resume ->Response(Access-Control-Allow-Origin : *) -> 200 (Data / Ok)
+
+Preflight Call [OPTIONS] -> Response (Access-Control-Allow-Origin : *) -> 200 (OK)
+
+
+
+
+GET Call > Paused (Wait for Preflight response) -> (If Preflight Success) -> Resume -> CORS ERROR
+
+Preflight Call [OPTIONS] -> Response () -> 200 (OK)
+
+
+
+GET Call > Paused (Wait for Preflight response) -> (If Preflight Succe
+yus-rdyx-mcv
+
+Access-Control-Allow-Methods: *
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: *

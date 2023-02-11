@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CORS Web Demo</title>
+    <!-- <link rel="stylesheet" href="http://localhost:9999/assets/style.css"> -->
+    <!-- <script src="http://localhost:9999/assets/script.js"></script> -->
   </head>
   <body>
     <button onclick="getChatAPI()">GET - CHAT API</button>
@@ -13,7 +15,9 @@
     <button onclick="getLinkedInTitle()">GET - LINKEDIN TITLE</button>
 
     <br /><br />
-    <form action="http://localhost:9999/api/comment" method="post" style="display: none">
+    <form action="http://localhost:9999/api/comment" method="post" 
+      style="display: none;"
+    >
       <input type="textarea" name="comment" required />
       <button type="submit">Submit</button>
     </form>
@@ -23,10 +27,12 @@
         fetch("http://localhost:9999/api/comment", {
           headers: {
             Accept: "application/json",
+            // Accept: "text/plain",
             "Content-Type": "application/json",
           },
+          // mode: "no-cors"
         })
-          .then((res) => res.json())
+          // .then((res) => res.json())
           .then((res) => console.log("GET - CHAT API", res));
       }
 
